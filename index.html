@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Milton Mendoza · Business Automation &amp; Build Partner</title>
+<meta name="description" content="Milton Mendoza builds and automates businesses for efficiency, productivity and profitability: AI agents, apps, CRM systems and team training.">
+<meta property="og:title" content="Milton Mendoza · Business Automation &amp; Build Partner">
+<meta property="og:description" content="Operator first. Builder second. Every system tied to a number.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+/* ===== EDIT THIS: your booking link (Calendly, GoHighLevel calendar, etc.) ===== */
+:root{--bg:#0B1220;--card:#121C2E;--line:#1E2A3E;--text:#E6EBF2;--muted:#C9D3E0;--dim:#8A9BB3;--accent:#2DD4BF;--white:#fff}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,system-ui,sans-serif;line-height:1.55}
+h1,h2,h3{font-family:'Space Grotesk',sans-serif;color:var(--white);margin:0}
+a{color:var(--accent)}
+.wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+nav{position:sticky;top:0;z-index:10;background:rgba(11,18,32,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;justify-content:space-between;align-items:center;min-height:68px;gap:16px}
+.brand{font-family:'Space Grotesk',sans-serif;font-weight:700;color:var(--white);text-decoration:none;font-size:20px}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:12px 26px;border-radius:999px;background:var(--accent);color:var(--bg);font-weight:600;text-decoration:none;transition:transform .15s}
+.btn:hover{transform:translateY(-2px)}
+.btn.ghost{background:transparent;color:var(--white);border:2px solid var(--line)}
+section{padding:88px 0;border-bottom:1px solid var(--line)}
+.eyebrow{font-size:14px;font-weight:600;letter-spacing:3px;text-transform:uppercase;color:var(--accent);margin-bottom:16px}
+.label{font-size:14px;font-weight:600;letter-spacing:3px;text-transform:uppercase;color:var(--dim);margin-bottom:24px}
+.hero h1{font-size:clamp(48px,8vw,96px);line-height:.98}
+.hero p{font-size:clamp(19px,2.2vw,26px);color:var(--muted);max-width:780px;margin:24px 0 32px}
+.chips{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:36px}
+.chip{padding:8px 18px;border:2px solid var(--line);border-radius:999px;font-weight:600;font-size:15px}
+.cta-row{display:flex;flex-wrap:wrap;gap:14px}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.stat{background:var(--card);border-radius:16px;padding:24px}
+.stat b{display:block;font-family:'Space Grotesk',sans-serif;font-size:44px;color:var(--accent)}
+.stat span{color:var(--muted)}
+.note{color:var(--dim);margin-top:20px;max-width:860px}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);border:2px solid var(--line);border-radius:16px;overflow:hidden}
+.step{padding:26px;border-right:2px solid var(--line)}
+.step:last-child{border-right:0}
+.step h3{color:var(--accent);font-size:20px;margin-bottom:10px}
+.step p{margin:0;color:var(--muted)}
+.list{border-top:2px solid var(--line)}
+.row{display:grid;grid-template-columns:300px 1fr;gap:24px;padding:20px 0;border-bottom:2px solid var(--line)}
+.row strong{color:var(--white)}
+.row span{color:var(--muted)}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.box{background:var(--card);border-radius:16px;padding:28px}
+.box p{margin:0;color:var(--muted)}
+.final{text-align:center;border-bottom:0}
+.final h2{font-size:clamp(36px,6vw,64px);line-height:1.05;margin-bottom:20px}
+.final p{color:var(--muted);font-size:20px;margin:0 auto 32px;max-width:640px}
+.final .btn{font-size:18px;padding:16px 36px}
+.bk{background:var(--card);border-radius:20px;padding:32px}
+.bk h3{font-size:20px;margin-bottom:14px}
+.bk-head{display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:8px}
+.tz,.muted{color:var(--dim);font-size:14px;margin:0}
+.bk-days{display:flex;gap:10px;overflow-x:auto;padding-bottom:6px}
+.bk-times{display:grid;grid-template-columns:repeat(auto-fill,minmax(120px,1fr));gap:10px}
+.slot{min-height:48px;padding:10px 14px;border-radius:12px;border:2px solid var(--line);background:transparent;color:var(--text);font:600 15px Inter,sans-serif;cursor:pointer;white-space:nowrap}
+.slot:hover{border-color:var(--accent)}
+.slot[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--bg)}
+.day{min-width:92px;text-align:center;line-height:1.3}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:12px}
+.grid label{display:flex;flex-direction:column;gap:6px;font-size:14px;font-weight:600;color:var(--muted)}
+.grid .full{grid-column:1/-1}
+.grid input,.grid select,.grid textarea{min-height:46px;padding:10px 12px;border-radius:10px;border:2px solid var(--line);background:var(--bg);color:var(--text);font:400 16px Inter,sans-serif}
+.grid input:focus,.grid select:focus,.grid textarea:focus{outline:none;border-color:var(--accent)}
+.hp{position:absolute;left:-9999px}
+.link{background:none;border:0;color:var(--accent);font:600 15px Inter,sans-serif;cursor:pointer;padding:0;margin-bottom:10px}
+.chosen{font-size:18px;color:var(--white);margin:0 0 20px}
+.err{color:#FCA5A5;min-height:1.4em}
+@media (max-width:820px){.grid{grid-template-columns:1fr}.bk{padding:22px}}
+footer{padding:32px 0;color:var(--dim);font-size:14px;border-top:1px solid var(--line)}
+footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px}
+@media (max-width:820px){
+ .stats{grid-template-columns:1fr 1fr}
+ .steps{grid-template-columns:1fr 1fr}
+ .step:nth-child(2){border-right:0}
+ .step:nth-child(-n+2){border-bottom:2px solid var(--line)}
+ .row{grid-template-columns:1fr;gap:6px}
+ .two{grid-template-columns:1fr}
+ nav .btn{padding:10px 18px;font-size:14px}
+}
+</style>
+</head>
+<body>
+
+<nav>
+ <div class="wrap">
+  <a class="brand" href="#top">Milton Mendoza</a>
+  <a class="btn book" href="mailto:info@hl-techhub.com?subject=Let's%20arrange%20a%20meeting">Book a meeting</a>
+ </div>
+</nav>
+
+<main id="top">
+ <section class="hero">
+  <div class="wrap">
+   <div class="eyebrow">HL TechHub</div>
+   <h1>Milton<br>Mendoza</h1>
+   <p>I build and automate businesses so they run more efficiently, more productively and more profitably, without lowering the quality of service.</p>
+   <div class="chips">
+    <span class="chip">Manager</span><span class="chip">Trainer</span><span class="chip">Leader</span><span class="chip">Consultant</span><span class="chip">Build partner from day one</span>
+   </div>
+   <div class="cta-row">
+    <a class="btn book" href="mailto:info@hl-techhub.com?subject=Let's%20arrange%20a%20meeting">Click here to arrange a meeting</a>
+    <a class="btn ghost" href="#work">See what I've built</a>
+   </div>
+  </div>
+ </section>
+
+ <section>
+  <div class="wrap">
+   <div class="label">01 · Track record</div>
+   <div class="stats">
+    <div class="stat"><b>400+</b><span>clients onboarded</span></div>
+    <div class="stat"><b>4x</b><span>company growth as COO</span></div>
+    <div class="stat"><b>95%</b><span>of sales owned as COO</span></div>
+    <div class="stat"><b>6</b><span>industries served</span></div>
+   </div>
+   <p class="note">Mortgage · marketing agencies · dog-training software · real estate · med spas · app development. Wrote the SOPs, ran the weekly trainings, and led a GoHighLevel user community with 1-on-1 sessions.</p>
+  </div>
+ </section>
+
+ <section>
+  <div class="wrap">
+   <div class="label">02 · How I work</div>
+   <div class="steps">
+    <div class="step"><h3>1 · Audit</h3><p>Map the current process, tools and hand-offs. Find where time, leads and money leak.</p></div>
+    <div class="step"><h3>2 · Design</h3><p>Define the target workflow and the metric each change should move.</p></div>
+    <div class="step"><h3>3 · Build</h3><p>Automations, AI agents and apps, shipped in small testable releases.</p></div>
+    <div class="step"><h3>4 · Train &amp; measure</h3><p>SOPs and team training so it sticks. Review the numbers, then iterate.</p></div>
+   </div>
+  </div>
+ </section>
+
+ <section id="work">
+  <div class="wrap">
+   <div class="label">03 · Built and shipped</div>
+   <div class="list">
+    <div class="row"><strong>Pet hotel / boarding app</strong><span>Bookings and deposit collection for a live boarding business, connected to its CRM pipeline.</span></div>
+    <div class="row"><strong>AI social content app</strong><span>AI-assisted rendering of posts plus an evergreen library that keeps publishing without manual work.</span></div>
+    <div class="row"><strong>Voice &amp; Conversation AI</strong><span>Agents that answer, qualify and book leads by phone, SMS and chat, around the clock.</span></div>
+    <div class="row"><strong>Video editing AI</strong><span>Faster content production with less editing time per piece.</span></div>
+    <div class="row"><strong>CRM &amp; agency systems</strong><span>GoHighLevel audits, pipelines, workflows and multi-account agency rollouts.</span></div>
+   </div>
+  </div>
+ </section>
+
+ <section>
+  <div class="wrap two">
+   <div class="box"><div class="label">04 · What I measure</div><p>Lead response time · Conversion by stage · Hours saved per week · Show / no-show rate · Revenue per client · Churn and retention</p></div>
+   <div class="box"><div class="label">05 · Stack</div><p>GoHighLevel · Supabase · GitHub · Render · AI app and site builders · Voice / Conversation AI</p></div>
+  </div>
+ </section>
+
+ <section class="final">
+  <div class="wrap">
+   <h2>Let's start building success together.</h2>
+   <p>Pick one bottleneck in your business. I'll map it, automate it, and show you the numbers.</p>
+   <a class="btn book" href="#book">Click here to arrange a meeting</a>
+  </div>
+ </section>
+
+ <section id="book" class="booking">
+  <div class="wrap">
+   <div class="label">Book your strategy session</div>
+   <h2 style="font-size:clamp(30px,4vw,44px);margin-bottom:12px">45-minute strategy session</h2>
+   <p class="note" style="margin:0 0 28px">We'll review how your business runs today, find the biggest bottleneck, and map what to automate first. Pick a time below. You'll get a confirmation and calendar invite right away.</p>
+   <div class="bk">
+    <div id="bk-pick">
+     <div class="bk-head"><h3>1 · Pick a day</h3><span class="tz" id="bk-tz"></span></div>
+     <div id="bk-days" class="bk-days"><p class="muted">Loading available times…</p></div>
+     <h3 style="margin-top:28px">2 · Pick a time</h3>
+     <div id="bk-times" class="bk-times"><p class="muted">Select a day first.</p></div>
+    </div>
+
+    <form id="bk-form" hidden novalidate>
+     <button type="button" class="link" id="bk-back">← Change time</button>
+     <p class="chosen" id="bk-chosen"></p>
+     <h3>3 · Your details</h3>
+     <div class="grid">
+      <label>Full name *<input name="name" required autocomplete="name"></label>
+      <label>Email *<input name="email" type="email" required autocomplete="email"></label>
+      <label>Phone / WhatsApp *<input name="phone" type="tel" required autocomplete="tel"></label>
+      <label>Business name *<input name="business_name" required autocomplete="organization"></label>
+      <label>Website<input name="website" type="url" placeholder="https://" autocomplete="url"></label>
+      <label>Industry *
+       <select name="industry" required>
+        <option value="">Select…</option><option>Real estate</option><option>Mortgage</option><option>Med spa / wellness</option>
+        <option>Pet / dog services</option><option>Marketing agency</option><option>Home services</option><option>Other</option>
+       </select></label>
+      <label>Team size *
+       <select name="team_size" required>
+        <option value="">Select…</option><option>Just me</option><option>2–5</option><option>6–20</option><option>20+</option>
+       </select></label>
+      <label>How did you hear about me?<input name="source"></label>
+      <label class="full">What's the #1 bottleneck you want fixed? *<textarea name="bottleneck" rows="3" required placeholder="e.g. Leads come in but nobody follows up fast enough"></textarea></label>
+      <label class="full">Tools you use today (CRM, booking, payments…)<input name="tools"></label>
+      <input name="company_hp" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+     </div>
+     <p class="err" id="bk-err" role="alert"></p>
+     <button class="btn" type="submit" id="bk-submit">Confirm my strategy session</button>
+    </form>
+
+    <div id="bk-done" hidden>
+     <h3>You're booked! ✓</h3>
+     <p id="bk-done-text"></p>
+     <p class="muted">A calendar invite with the Google Meet link is on its way to your email.</p>
+    </div>
+   </div>
+  </div>
+ </section>
+</main>
+
+<footer>
+ <div class="wrap">
+  <span>© <span id="y"></span> Milton Mendoza · HL TechHub</span>
+  <a href="mailto:info@hl-techhub.com">info@hl-techhub.com</a>
+ </div>
+</footer>
+
+<script>
+/* ===== EDIT THESE TWO LINES (Supabase > Project Settings > API) ===== */
+const SUPABASE_URL = "https://YOUR-PROJECT-REF.supabase.co";
+const SUPABASE_ANON_KEY = "YOUR-ANON-PUBLIC-KEY";
+
+document.querySelectorAll('a.book').forEach(a => a.href = "#book");
+
+const FN = SUPABASE_URL + "/functions/v1/booking";
+const H = { "Content-Type": "application/json", apikey: SUPABASE_ANON_KEY, Authorization: "Bearer " + SUPABASE_ANON_KEY };
+const $ = id => document.getElementById(id);
+const tz = Intl.DateTimeFormat().resolvedOptions().timeZone;
+$("bk-tz").textContent = "Times shown in your time zone: " + tz;
+const fmtDay = new Intl.DateTimeFormat(undefined, { weekday: "short", month: "short", day: "numeric" });
+const fmtTime = new Intl.DateTimeFormat(undefined, { hour: "numeric", minute: "2-digit" });
+const fmtFull = new Intl.DateTimeFormat(undefined, { weekday: "long", month: "long", day: "numeric", hour: "numeric", minute: "2-digit" });
+const dayKey = d => d.getFullYear() + "-" + (d.getMonth() + 1) + "-" + d.getDate();
+let byDay = new Map(), chosen = null;
+
+function btn(label, onClick, pressed) {
+  const b = document.createElement("button");
+  b.type = "button"; b.className = "slot"; b.innerHTML = label;
+  b.setAttribute("aria-pressed", pressed ? "true" : "false");
+  b.onclick = onClick; return b;
+}
+function renderDays(activeKey) {
+  const box = $("bk-days"); box.replaceChildren();
+  if (!byDay.size) { box.innerHTML = '<p class="muted">No open times right now. Email <a href="mailto:info@hl-techhub.com">info@hl-techhub.com</a> and I\'ll make room.</p>'; return; }
+  for (const [k, list] of byDay) {
+    const [w, ...rest] = fmtDay.format(list[0]).split(" ");
+    const b = btn(w.replace(",", "") + "<br>" + rest.join(" "), () => { renderDays(k); renderTimes(k); }, k === activeKey);
+    b.classList.add("day"); box.append(b);
+  }
+}
+function renderTimes(k) {
+  const box = $("bk-times"); box.replaceChildren();
+  for (const d of byDay.get(k)) box.append(btn(fmtTime.format(d), () => openForm(d), false));
+}
+function openForm(d) {
+  chosen = d;
+  $("bk-chosen").textContent = "45-min strategy session · " + fmtFull.format(d);
+  $("bk-pick").hidden = true; $("bk-form").hidden = false; $("bk-err").textContent = "";
+  $("bk-form").querySelector("input").focus();
+}
+$("bk-back").onclick = () => { $("bk-form").hidden = true; $("bk-pick").hidden = false; };
+
+/* ===== PLACEHOLDER MODE: runs until the two Supabase lines above are filled in ===== */
+const DEMO = SUPABASE_URL.includes("YOUR-PROJECT-REF");
+function demoSlots() {
+  // Mon–Fri, 9:00–16:00 Guatemala time (UTC-6), hourly, 12h notice, next 3 weeks
+  const out = [], now = Date.now(), off = -6 * 3600e3;
+  const l = new Date(now + off), base = Date.UTC(l.getUTCFullYear(), l.getUTCMonth(), l.getUTCDate());
+  for (let i = 0; i <= 21; i++) {
+    const day = base + i * 864e5, wd = new Date(day).getUTCDay();
+    if (wd === 0 || wd === 6) continue;
+    for (let h = 9; h <= 16; h++) {
+      const s = day - off + h * 3600e3;
+      if (s > now + 12 * 3600e3) out.push(new Date(s).toISOString());
+    }
+  }
+  return out;
+}
+
+async function loadSlots() {
+  if (DEMO) {
+    byDay = new Map();
+    for (const iso of demoSlots()) {
+      const dt = new Date(iso), k = dayKey(dt);
+      if (!byDay.has(k)) byDay.set(k, []);
+      byDay.get(k).push(dt);
+    }
+    const first = byDay.keys().next().value;
+    renderDays(first); renderTimes(first);
+    return;
+  }
+  try {
+    const r = await fetch(FN, { headers: H });
+    const d = await r.json();
+    if (!r.ok) throw new Error(d.error);
+    byDay = new Map();
+    for (const iso of d.slots) {
+      const dt = new Date(iso), k = dayKey(dt);
+      if (!byDay.has(k)) byDay.set(k, []);
+      byDay.get(k).push(dt);
+    }
+    renderDays();
+    if (byDay.size) { const first = byDay.keys().next().value; renderDays(first); renderTimes(first); }
+  } catch {
+    $("bk-days").innerHTML = '<p class="muted">Online booking is unavailable right now. Email <a href="mailto:info@hl-techhub.com?subject=Strategy%20session%20request">info@hl-techhub.com</a> and I\'ll send you times.</p>';
+    $("bk-times").replaceChildren();
+  }
+}
+
+$("bk-form").onsubmit = async e => {
+  e.preventDefault();
+  const f = e.target;
+  if (!f.checkValidity()) { $("bk-err").textContent = "Please fill in the required fields (*)."; f.reportValidity(); return; }
+  const data = Object.fromEntries(new FormData(f));
+  data.start = chosen.toISOString().replace(/\.\d{3}Z$/, ".000Z");
+  if (DEMO) {
+    const body = [
+      "Requested time: " + fmtFull.format(chosen) + " (" + tz + ")", "",
+      "Name: " + data.name, "Email: " + data.email, "Phone: " + data.phone,
+      "Business: " + data.business_name, "Website: " + (data.website || "-"),
+      "Industry: " + data.industry, "Team size: " + data.team_size, "",
+      "#1 bottleneck: " + data.bottleneck, "Tools: " + (data.tools || "-"), "Heard about me: " + (data.source || "-")
+    ].join("\n");
+    location.href = "mailto:info@hl-techhub.com?subject=" + encodeURIComponent("Strategy session request: " + data.business_name) + "&body=" + encodeURIComponent(body);
+    $("bk-form").hidden = true; $("bk-done").hidden = false;
+    $("bk-done").querySelector("h3").textContent = "Almost done!";
+    $("bk-done-text").textContent = "Your email app opened with your request for " + fmtFull.format(chosen) + ". Hit send and I'll confirm with a calendar invite.";
+    $("bk-done").querySelector(".muted").textContent = "Didn't open? Email info@hl-techhub.com with your preferred time.";
+    return;
+  }
+  const sb = $("bk-submit"); sb.disabled = true; sb.textContent = "Booking…";
+  try {
+    const r = await fetch(FN, { method: "POST", headers: H, body: JSON.stringify(data) });
+    const d = await r.json();
+    if (!r.ok) {
+      $("bk-err").textContent = d.error || "Something went wrong.";
+      if (r.status === 409) { await loadSlots(); $("bk-form").hidden = true; $("bk-pick").hidden = false; }
+      return;
+    }
+    $("bk-form").hidden = true; $("bk-done").hidden = false;
+    $("bk-done-text").textContent = "See you " + fmtFull.format(chosen) + ".";
+  } catch { $("bk-err").textContent = "Network error. Please try again."; }
+  finally { sb.disabled = false; sb.textContent = "Confirm my strategy session"; }
+};
+
+loadSlots();
+document.getElementById('y').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
